@@ -1,21 +1,19 @@
 ### Hostel Management
-1. Open XAMPP and start Apache and MySQL
+1. Open XAMPP Control Panel and start Apache and MySQL.
 
-2. Open "TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+2. Download the zip file.
 
-3. Download the zip file/ download winrar 
+3. Extract the file and copy "hostel" folder.
 
-4. Extract the file and copy "hostel" folder
+4. Paste inside root directory/ where you install xammp (for example local disk C:\xampp\htdocs\hostel). 
 
-5. Paste inside root directory/ where you install xammp (for example local disk C:/xampp/htdocs) 
+5. Open PHPMyAdmin by either clicking Admin option of MySQL in XAMPP Control Panel or by viting the URL (http://localhost/phpmyadmin).
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+6. Create a database named hostel
 
-8. Create a database named hostel
+7. Import hostel.sql file(provided inside the zip package in database folder)
 
-6. Import hostel.sql file(provided inside the zip package in database folder)
-
-7. Now, open the URL `http://localhost/hostel` in the browser to view the website.
+8. Now, open the URL http://localhost/hostel in the browser to view the website.
 
 
 Login Details for admin Role: Username:- `admin` Password:- `Test@1234`
