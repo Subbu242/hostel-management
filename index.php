@@ -24,7 +24,7 @@ $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip;
 $addrDetailsArr = unserialize(file_get_contents($geopluginURL));
 $city = $addrDetailsArr['geoplugin_city'];
 $country = $addrDetailsArr['geoplugin_countryName'];
-$log="insert into userLog(userId,userEmail) values('$uid','$uemail')";
+$log="insert into userlog(userId,userEmail) values('$uid','$uemail')";
 $mysqli->query($log);
 if($log)
 {
